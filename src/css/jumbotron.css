@@ -1,0 +1,29 @@
+.jumbotron {
+    background-color: #f2f2f2;
+}
+
+div.jumbotron > div > div:first-child  {
+    padding-top: 2em;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+p {
+    font-weight: 600;
+    line-height: 2;
+}
+
+div.jumbotron button {
+    border-radius: unset;
+    border: 2px solid #FD9D2E;
+    color: white;
+    background-color: #FD9D2E;
+}
+
+div.jumbotron > div > div.align-self-center.col-lg-5 > p {
+    width: 70%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}

@@ -1,0 +1,118 @@
+nav {
+    box-shadow: 0 4px 4px lightgray;
+}
+
+nav.navbar.navbar-expand-lg {
+    padding-left: 6em;
+    padding-right: 6em;
+}
+
+a.navbar-brand > img {
+   width: 10em;
+}
+
+.navbar-toggler {
+    border: unset;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url('../imgs/hamburger.png');
+    height: 1em;
+    background-size: 20px 15px;
+}
+
+.nav-item {
+    font-size: 0.8em;
+}
+
+.nav-item {
+    margin-right: 1.4em;
+    border: 2px solid transparent;
+}
+
+.nav-item:hover {
+    border: 2px solid #FD9D2E;
+}
+
+#basic-navbar-nav > div > button {
+    border: 2px solid #FD9D2E;
+    font-size: 0.8em;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+}
+
+#basic-navbar-nav > div > button:nth-child(5) {
+    color: #FD9D2E;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+#basic-navbar-nav > div > button:nth-child(5):hover {
+    color: white;
+}
+
+
+#basic-navbar-nav > div > button:last-child {
+   background-color: #FD9D2E;
+   border-radius: unset;
+}
+
+#basic-navbar-nav > div > button:last-child:hover {
+    background-color: #d98106;
+    border: 2px solid #d98106;
+}
+
+
+@media (max-width: 599px) {
+    a.navbar-brand > img {
+        width: 9em;
+    }
+
+    nav.navbar.navbar-expand-lg {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .nav-item:hover {
+        border: unset;
+    }
+
+    .nav-fill .nav-item {
+        text-align: right;
+    }
+
+    #basic-navbar-nav > div > button:nth-child(5){
+        display: none;
+    }
+
+    #basic-navbar-nav > div > button:last-child {
+        display: none;
+    }
+}
+
+@media (min-width: 599px) and (max-width: 900px) {
+    nav.navbar.navbar-expand-lg {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .nav-fill .nav-item {
+        text-align: right;
+    }
+
+    #basic-navbar-nav > div > button:nth-child(5){
+        display: none;
+    }
+
+    #basic-navbar-nav > div > button:last-child {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    nav.navbar.navbar-expand-lg {
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+}
